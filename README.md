@@ -8,7 +8,7 @@ $$-D\,\phi'' + \Sigma_a\,\phi = \frac{1}{k}\,\nu\Sigma_f\,\phi, \qquad \phi(\pm 
 
 Analytic results for a bare slab:
 
-$$B^2 = \left(\frac{\pi}{a}\right)^2, \qquad k_{\text{eff}} = \frac{\nu\Sigma_f}{\Sigma_a + D B^2}, \qquad \phi(x) = \cos\!\left(\frac{\pi x}{a}\right)$$
+$$B^2 = \left(\frac{\pi}{a}\right)^2, \qquad k_{\text{eff}} = \frac{\nu\Sigma_f}{\Sigma_a + D B^2}, \qquad \phi(x) = \cos\\left(\frac{\pi x}{a}\right)$$
 
 ## Method
 
