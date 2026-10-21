@@ -84,6 +84,11 @@ int main(int argc, char* argv[])
         out << x[i] << "," << num << "," << ana << "\n";
     }
 
+    // Convergence study (Milestone 6): append one row per run.
+    std::ofstream conv("results/convergence.csv", std::ios::app);
+    conv << std::setprecision(12) << N << "," << k << "," << k_analytic << ","
+         << k_error << "," << max_flux_error << "," << iterations << "\n";
+
     std::cout << std::setprecision(12);
     std::cout << "N              = " << N << "\n"
               << "converged      = " << (converged ? "yes" : "NO") << " (" << iterations << " iterations)\n"
